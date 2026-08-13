@@ -11,6 +11,7 @@ int main()
    }
    else if(G > 25 && G<=40){
     cout << "Grade = C";
+    
    }
    else if(G > 40 && G<= 60){
     cout<< "Grade = B";
