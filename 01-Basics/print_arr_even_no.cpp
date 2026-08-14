@@ -1,21 +1,21 @@
-
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    int n = 5;
-    int arr[n];
-    for(int i = 0; i<n; i++){
-        cout <<"enter value";
-        cin >> arr[i];
+class Circle {
+public:
+    float radius;
+
+    void area() {
+        cout << "Enter radius: ";
+        cin >> radius;
+
+        cout << "Area = " << 3.14 * radius * radius;
     }
-    cout <<"vallue of aee are"<< endl;
-    for(int i = 0; i<n; i++){
-        if (arr[i] %2 ==0){
-            cout<<arr[i]<<endl;
-        }
-    }
+};
+
+int main() {
+    Circle c;   // object
+    c.area();   // function call
 
     return 0;
 }
