@@ -15,7 +15,7 @@ int main(){
         m = arr[i];}
 }
 for (int i = 0; i<n;i++){
-    if (smax < arr[i] && arr[i] != m){
+    if (smax < arr[i] && arr[i] != m){ //smax  se bada ho, lekin maax na ho.
         smax = arr[i];
     }
 }
