@@ -1,5 +1,6 @@
 # Compiled files
 *.exe
+*.exe
 *.out
 *.o
 *.obj
