@@ -8,7 +8,7 @@ int main() {
         {5,6,7,8},
         {9,10,11,12}
     };
-    int sM = 0 , maxrow = -1;
+    int sM = 0 , maxrow ;
 
     // Print transpose of arr
     for(int i = 0; i < 3; i++) {
