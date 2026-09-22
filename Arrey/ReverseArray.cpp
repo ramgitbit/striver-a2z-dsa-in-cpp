@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int arr[] = {10,20,30,40,50,60,70};
     int n = sizeof(arr)/4;
-    int i = 0;  /// 0 se chlega naa ki arr[0] se ..
+    int i = 0;  /// 0 se chlega naa ki arr[0] se ..   twp oointer approach
     int j = n-1;
     while(i<j){
         int temp = arr[i];
